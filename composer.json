@@ -1,0 +1,44 @@
+{
+    "name": "the-mr-tech/laravel-forge-facade",
+    "description": "",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Gabriel Ferreira Rosalino",
+            "email": "eu@gabrielf.com",
+            "homepage": "https://gabrielf.com"
+        }
+    ],
+    "homepage": "https://github.com/themrtech/laravelforgefacade",
+    "keywords": ["Laravel", "LaravelForgeFacade"],
+    "require": {
+        "illuminate/support": "~5",
+        "themsaid/forge-sdk": "^1.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~7.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3.0",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TheMrTech\\LaravelForgeFacade\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TheMrTech\\LaravelForgeFacade\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TheMrTech\\LaravelForgeFacade\\LaravelForgeFacadeServiceProvider"
+            ],
+            "aliases": {
+                "LaravelForge": "TheMrTech\\LaravelForgeFacade\\Facades\\LaravelForgeFacade"
+            }
+        }
+    }
+}
