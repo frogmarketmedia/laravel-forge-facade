@@ -13,6 +13,6 @@ class LaravelForgeFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'LaravelForgeFacade';
+        return 'LaravelForge';
     }
 }

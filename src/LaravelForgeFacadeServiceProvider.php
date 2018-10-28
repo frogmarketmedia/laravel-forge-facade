@@ -3,6 +3,7 @@
 namespace TheMrTech\LaravelForgeFacade;
 
 use Illuminate\Support\ServiceProvider;
+use Themsaid\Forge\Forge as ThemsaidForge;
 
 class LaravelForgeFacadeServiceProvider extends ServiceProvider
 {
@@ -36,9 +37,9 @@ class LaravelForgeFacadeServiceProvider extends ServiceProvider
         );
 
         $this->app->singleton('LaravelForge', function($app) {
-            $forgeToken = $app['config']->get('services.laravel-forge.token');
-            $app['log']->info('[LaravelForge] Config key: ' . $forgeToken);
-            return new ThemsaidForge($forgeToken);
+            return new ThemsaidForge(
+                $app['config']->get('services.laravel-forge.token')
+            );
         });
     }
 
