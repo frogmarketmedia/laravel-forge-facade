@@ -62,9 +62,9 @@ license. Please see the [license file](license.md) for more information.
 [ico-travis]: https://img.shields.io/travis/themrtech/laravelforgefacade/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/themrtech/laravelforgefacade
-[link-downloads]: https://packagist.org/packages/themrtech/laravelforgefacade
-[link-travis]: https://travis-ci.org/themrtech/laravelforgefacade
+[link-packagist]: https://packagist.org/packages/the-mr-tech/laravel-forge-facade
+[link-downloads]: https://packagist.org/packages/the-mr-tech/laravel-forge-facade
+[link-travis]: https://travis-ci.org/the-mr-tech/laravel-forge-facade
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/themrtech
+[link-author]: https://github.com/the-mr-tech
 [link-contributors]: ../../contributors]
